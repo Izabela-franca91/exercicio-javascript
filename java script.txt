@@ -1,0 +1,320 @@
+exercicio javascript 
+Izabela Franca
+
+JS Variables
+
+1
+Create a variable called carName, assign the value Volvo to it.
+
+
+let 
+carName
+ = "
+Volvo
+";
+
+2
+Create a variable called x, assign the value 50 to it.
+
+
+let x = 50
+
+3
+Display the sum of 5 + 10, using two variables: x and y.
+
+
+let x= 5;
+let y = 10;
+document.getElementById("demo").innerHTML = x + y;
+
+4
+Create a variable called z, assign x + y to it, and display the result in an alert box.
+
+let x = 5;
+let y = 10;
+let z = x + y;
+arlet(z);
+
+5
+firstName = "John"
+lastName = "Doe"
+age = 35
+
+let firstName = "John",lastName = "Doe",age = 35;
+
+JS Operators
+1
+Multiply 10 with 5, and alert the result:
+
+
+alert(10 * 5);
+
+2
+Divide 10 by 2, and alert the result:
+
+3
+Alert the remainder when 15 is divided by 9.
+
+
+alert(15 % 9);
+
+4
+Use the correct assignment operator that will result in x being 15 (same as x = x + y).
+
+
+x = 10;
+y = 5;
+x += y;
+
+5
+Use the correct assignment operator that will result in x being 50 (same as x = x * y).
+
+
+x = 10;
+y = 5;
+x *= y;
+
+JS Data types
+1
+Use comentários para descrever o tipo de dados correto das seguintes variáveis:
+
+
+let length = 16;          // nherit
+let lastName = "Johnson"; // : inhe
+const x = {
+  firstName: "John",
+  lastName: "Doe"
+};                        // onst x
+
+JS Functions
+1
+Execute a função chamada myFunction.
+
+function myFunction() {
+  alert("Hello World!");
+}
+vertical-ali;
+
+2
+Crie uma função chamada "myFunction".
+
+font sty e="vertical-l
+alert("Hello World!");
+=
+
+3
+Faça a função retornar "Olá".
+
+
+function myFunction() {
+  
+: inhe"t;"><";
+}
+document.getElementById("demo").innerHTML = myFunction();
+
+4
+Faça a função exibir "Olá" no HTML interno de um elemento com o ID "demo".
+
+
+function myFunction() {
+  document.;"><font style("demo").l-align: = "Hello";
+}
+
+ObjetosJS
+1
+Alerte "John" extraindo informações do objeto pessoa.
+
+
+const person = {
+  firstName: "John",
+  lastName: "Doe"
+};
+
+alert(inherit;">cons);
+
+2
+Adicione a seguinte propriedade e valor ao objeto pessoa: país: Noruega.
+
+
+const person = {
+  firstName: "John",
+  lastName: "Doe"
+i
+
+  
+-align:: nherit;"
+};
+
+3
+Crie um objeto chamado pessoa com nome = João, idade = 50.
+Em seguida, acesse o objeto para alert("João tem 50 anos").
+
+
+const person e{
+  namei"John", age"50
+};
+alert("vertical-a + " is " + t;">const);
+
+Eventos JS
+1
+O elemento <button> deve fazer alguma coisa quando alguém clica nele. Tente consertar!
+
+<button "vertic="alert('Hello')">Click me.</button>
+
+2
+Quando o botão for clicado, a função "myFunction" deverá ser executada.
+
+
+<button 
+"vertic="-align: inhe">Click me.</button>
+
+3
+O elemento <div> deve ficar vermelho quando alguém passa o mouse sobre ele.
+
+<div le="vertica="this.style.backgroundColor='red'">myDIV.</div>
+
+Sequencias de caracteres JS
+
+1
+Use a propriedade length para alertar sobre o comprimento de txt.
+
+
+let txt = "Hello World!";
+let x = t;"><font ;
+alert(x);
+
+2
+Use caracteres de escape para alertar We are "Vikings".
+
+let txt = ""vertical-align: i";
+alert(txt);
+
+3
+Concatene as duas strings para alertar "Olá, mundo!".
+
+let str1 = "Hello ";
+let str2 = "World!";
+alert(e="v r ical);
+
+Metodos de string JS
+1
+Converta o texto em letras MAIÚSCULAS:
+
+let txt = "Hello World!";
+txt = txt."><font style;
+
+2
+Use o método slice para retornar a palavra "bananas".
+
+let txt = "I can eat bananas all day";
+let x = txt.slice(al, li);
+
+3
+Use o método String correto para substituir a palavra "Olá" pela palavra "Bem-vindo".
+
+let txt = "Hello World";
+txt = txt.;"><fon("Hello", "Welcome");
+
+4
+Converta o valor de txtpara letras maiúsculas.
+
+let txt = "Hello World";
+txt = erit;"><font styl;
+
+5
+Converta o valor de txtpara minúsculas.
+
+let txt = "Hello World";
+txt = erit;"><font styl;
+
+MatriszesJS
+1
+Obtenha o valor "Volvo" da carsmatriz.
+
+const cars = ["Saab", "Volvo", "BMW"];
+let x = le="ver;
+
+2
+Altere o primeiro item de carros para "Ford".
+
+const cars = ["Volvo", "Jeep", "Mercedes"];
+style="= "Ford";
+
+3
+Alerte o número de itens em uma matriz, usando a propriedade Array correta.
+
+const cars = ["Volvo", "Jeep", "Mercedes"];
+alert("vertical-a);
+
+Metodos de matriz JS
+1
+Use o método Array correto para remover o último item do fruitsarray.
+
+const fruits = ["Banana", "Orange", "Apple"];
+yle="vertica;
+
+2
+Use o método Array correto para adicionar "Kiwi" ao fruitsarray.
+
+const fruits = ["Banana", "Orange", "Apple"];
+yle="vertical-align;
+
+3
+Use the splice() method to remove "Orange" and "Apple" from fruits.
+
+
+const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+fruits.splice(1, 2);
+
+JSArray Sort
+Use the correct Array method to sort the fruits array alphabetically.
+
+const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
+fruits.sort();
+
+JS Dates
+1
+Create a Date object and alert the current date and time.
+
+const d = new Date();
+alert(d);
+
+2
+Use the correct Date method to extract the year (four digits) out of a date object.
+
+const d = new Date();
+year = d.getFullYear();
+
+3
+Use the correct Date method to get the month (0-11) out of a date object.
+
+const d = new Date();
+month = d.getMonth();
+
+4
+Use the correct Date method to set the year of a date object to 2020.
+
+const d = new Date();
+d.setFullYear(2020);
+
+JS math
+1
+Use the correct Math method to create a random number.
+
+let r = Math.random();
+
+2
+Use the correct Math method to round a number to the nearest integer.
+
+let x = Math.round(5.3);
+
+3
+Use the correct Math method to return the largest number of 10 and 20.
+
+let x = Math.max(10, 20);
+
+4
+Use the correct Math method to get the square root of 9.
+
+
+let x = Math.sqrt(9);
